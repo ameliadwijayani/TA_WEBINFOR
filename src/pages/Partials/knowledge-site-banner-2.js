@@ -23,12 +23,12 @@ export default function Knowledge_site_banner_2({breadcrumb}) {
                 <div className="col-md-6 col-sm-12 col-md-offset-3 col-xs-12 slider-text animated fadeInUp">
                 <div className="slider-text-inner text-center">
                     <h1>
-                        {breadcrumb[0]}
+                        {breadcrumb[0]?breadcrumb[0]:""}
                     </h1>
-                    <h2 className="breadcrumbs"><span>{breadcrumb[1]}
+                    <h2 className="breadcrumbs"><span>{breadcrumb[1]?breadcrumb[1]:""}
                     </span> |
                     <span><a href="">
-                        </a> {breadcrumb[2]}</span></h2>
+                        </a> {breadcrumb[2]?breadcrumb[2]:""}</span></h2>
                 </div>
                 </div>
             </div>
