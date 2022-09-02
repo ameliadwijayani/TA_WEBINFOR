@@ -6,7 +6,7 @@ export default function Event_data() {
     
     React.useEffect(()=>{
        
-        Axios.get("http://localhost:5000/api/basicController/get_dosen_recent")
+        Axios.get("https://ujicobata.com/BESTTS/api/basicController/get_dosen_recent")
         .then(result => {
           console.log(result.data.data)
           setDosen(result.data.data)

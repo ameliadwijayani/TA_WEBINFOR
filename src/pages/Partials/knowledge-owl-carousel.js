@@ -6,7 +6,7 @@ export default function Knowledge_owl_carousel({title1,title2}) {
     
   React.useEffect(()=>{
      
-      Axios.get("http://localhost:5000/api/basicController/get_karya_recent")
+      Axios.get("https://ujicobata.com/BESTTS/api/basicController/get_karya_recent")
       .then(result => {
         console.log(result.data.data)
         setKarya(result.data.data)

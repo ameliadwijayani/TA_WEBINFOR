@@ -6,14 +6,14 @@ export default function Knowledge_recent() {
     const [event,setEvent]=React.useState([])
     let mon = ["Jan", "Feb", "Mar", "Apr","Mei", "Jun", "Jul", "Agt","Sep", "Okt", "Nov", "Des"];
   React.useEffect(()=>{
-      Axios.get("http://localhost:5000/api/basicController/get_berita_recent")
+      Axios.get("https://ujicobata.com/BESTTS/api/basicController/get_berita_recent")
       .then(result => {
         setBerita(result.data.data)
       })
       .catch(err => {
         
       })
-      Axios.get("http://localhost:5000/api/basicController/get_event_recent")
+      Axios.get("https://ujicobata.com/BESTTS/api/basicController/get_event_recent")
       .then(result => {
         console.log(result.data.data)
         setEvent(result.data.data)

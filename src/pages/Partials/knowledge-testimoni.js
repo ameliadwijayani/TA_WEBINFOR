@@ -7,7 +7,7 @@ export default function Knowledge_testimoni() {
     
     React.useEffect(()=>{
        
-        Axios.get("http://localhost:5000/api/basicController/get_testimoni_recent")
+        Axios.get("https://ujicobata.com/BESTTS/api/basicController/get_testimoni_recent")
         .then(result => {
           console.log(result.data.data)
           setTestimoni(result.data.data)

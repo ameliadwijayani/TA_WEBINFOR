@@ -7,7 +7,7 @@ export default function Matkul_data() {
     
     React.useEffect(()=>{
        
-        Axios.get("http://localhost:5000/api/basicController/get_matkul_recent")
+        Axios.get("https://ujicobata.com/BESTTS/api/basicController/get_matkul_recent")
         .then(result => {
           console.log(result.data.data)
           setMakul(result.data.data)

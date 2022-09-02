@@ -17,7 +17,7 @@ export default function Karyamhs_data() {
    
     React.useEffect(()=>{
        
-        Axios.get("http://localhost:5000/api/basicController/get_karyamhs_recent")
+        Axios.get("https://ujicobata.com/BESTTS/api/basicController/get_karyamhs_recent")
         .then(result => {
           console.log(result.data.data)
           setKaryamhs(result.data.data)
@@ -29,7 +29,7 @@ export default function Karyamhs_data() {
     },[])
     
     function search_karya(){
-        Axios.get(`http://localhost:5000/api/basicController/get_karyamhs_recent?judul=${judul}&major=${major.value} `)
+        Axios.get(`https://ujicobata.com/BESTTS/api/basicController/get_karyamhs_recent?judul=${judul}&major=${major.value} `)
         .then(result => {
           console.log(result.data.data)
           setKaryamhs(result.data.data)
