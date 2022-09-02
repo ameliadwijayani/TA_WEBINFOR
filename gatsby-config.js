@@ -21,38 +21,38 @@ module.exports = {
         precachePages: [`/dosen`, `/`],
       },
     },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        query: `{
-          allSitePage {
-            nodes {
-              path
-            }
-          }
-        }`,
-        resolveSiteUrl: () => siteUrl,
-        resolvePages: ({
-          allSitePage: { nodes: allPages },
+    // {
+    //   resolve: `gatsby-plugin-sitemap`,
+    //   options: {
+    //     query: `{
+    //       allSitePage {
+    //         nodes {
+    //           path
+    //         }
+    //       }
+    //     }`,
+    //     resolveSiteUrl: () => siteUrl,
+    //     resolvePages: ({
+    //       allSitePage: { nodes: allPages },
          
-        }) => {
-          const wpNodeMap = md.reduce((acc, node) => {
-            const { slug } = node.fields
-            acc[slug] = node
+    //     }) => {
+    //       const wpNodeMap = md.reduce((acc, node) => {
+    //         const { slug } = node.fields
+    //         acc[slug] = node
 
-            return acc
-          }, {})
+    //         return acc
+    //       }, {})
 
-          return allPages.map(page => {
-            return { ...page, ...wpNodeMap[page.path] }
-          })
-        },
-        serialize: ({ path }) => {
-          return {
-            url: path,
-          }
-        },
-      },
-    },
+    //       return allPages.map(page => {
+    //         return { ...page, ...wpNodeMap[page.path] }
+    //       })
+    //     },
+    //     serialize: ({ path }) => {
+    //       return {
+    //         url: path,
+    //       }
+    //     },
+    //   },
+    // },
   ],
 }
