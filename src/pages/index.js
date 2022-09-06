@@ -4,14 +4,14 @@ import { StaticImage} from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Axios from "axios"
-import Layout from "./layout/layout"
-import Knowledge_site_banner from "./Partials/knowledge-site-banner"
-import Knowledge_tentang_kami from "./Partials/knowledge-tentang-kami"
-import Knowledge_tentang_kami_2 from "./Partials/knowledge-tentang-kami-2"
-import Knowledge_recent from "./Partials/knowledge_recent"
-import Knowledge_owl_carousel from "./Partials/knowledge-owl-carousel"
-import Knowledge_spesialisasi from "./Partials/knowledge-spesialisasi"
-import Knowledge_testimoni from "./Partials/knowledge-testimoni"
+import Layout from "../layout/layout"
+import Knowledge_site_banner from "../Partials/knowledge-site-banner"
+import Knowledge_tentang_kami from "../Partials/knowledge-tentang-kami"
+import Knowledge_tentang_kami_2 from "../Partials/knowledge-tentang-kami-2"
+import Knowledge_recent from "../Partials/knowledge_recent"
+import Knowledge_owl_carousel from "../Partials/knowledge-owl-carousel"
+import Knowledge_spesialisasi from "../Partials/knowledge-spesialisasi"
+import Knowledge_testimoni from "../Partials/knowledge-testimoni"
 export default function Home() {
     let ArrayScript=[
       'https://code.jquery.com/jquery-3.4.1.min.js',
