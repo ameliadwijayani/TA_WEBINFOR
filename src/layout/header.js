@@ -12,7 +12,7 @@ export default function Header() {
               
               <div id="colorlib-logo">
               <Link to="/">
-                <img src="/img/beranda/logo.jpg" style={{ 
+                <img alt="img" src="/img/beranda/logo.jpg" style={{ 
                     width: "60px", 
                     height: "60px"
                 }}/> &nbsp; Informatika</Link></div>

@@ -89,7 +89,7 @@ export default function Matkul_data() {
 
             
             
-                    <img src={ ("../img/misc/makul.jpg") } width="100%" />
+                    <img alt="img" src={ ("../img/misc/makul.jpg") } width="100%" />
                     <br /><br /><br />
                     </div>
                 </div>

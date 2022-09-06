@@ -61,7 +61,7 @@ export default function Knowledge_spesialisasi() {
                                             <a name="#" className="services">
                                                 <span className="icon">
                                                     {/* <i className="flaticon-desktop"></i>  */}
-                                                    <i><img src={`../../img/beranda/spesialisasi/${a.img}.jpg`} style={{ width:"48px"}}/></i>
+                                                    <i><img alt="img" src={`../../img/beranda/spesialisasi/${a.img}.jpg`} style={{ width:"48px"}}/></i>
                                                 </span>
                                                 <div className="desc">
                                                     <h3>{a.desc}</h3>

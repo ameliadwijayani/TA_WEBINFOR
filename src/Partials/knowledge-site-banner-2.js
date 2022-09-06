@@ -2,9 +2,7 @@ import React from 'react'
 import Axios from "axios"
 
 export default function Knowledge_site_banner_2({breadcrumb=["","",""]}) {
-    React.useEffect(()=>{
-        console.log(breadcrumb)
-    },[])
+
   return (
    <aside id="colorlib-hero">
     <div className="flexslider" style={{ minHeight:"376px" }}>

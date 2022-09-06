@@ -32,7 +32,6 @@ export default function Knowledge_testimoni() {
                 <div className="col-md-12">
                     <div className="testimony-flex">
                     {testimoni.map((e,index)=>{
-                        console.log(e)
                         return(
                             <div className="one-fifth animate-box">
                                 <span className="icon"><i className="icon-quotes-left" /></span>

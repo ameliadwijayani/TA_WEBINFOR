@@ -72,7 +72,7 @@ export default function Knowledge_recent() {
                                 let img=json[1].data.file.url;
                                 return(
                                     <div className="block-21 d-flex animate-box" key={index}>
-                                        <a href="" className="blog-img" style={{ 
+                                        <a href="/" className="blog-img" style={{ 
                                             backgroundImage:`url(${img})`
                                          }}></a>
                                         <div className="text">
