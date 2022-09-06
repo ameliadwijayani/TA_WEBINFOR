@@ -23,7 +23,7 @@ export default function Header() {
                 <li className="nav-menu" id="nav-menu-tentang"><Link to="/dosen">Pengajar</Link></li>
                 <li className="nav-menu" id="nav-menu-tentang"><Link to="/matkul">Mata Kuliah</Link></li>
                 <li className="nav-menu has-dropdown" id="nav-menu-terbaru">
-                  <a name="#">Terbaru</a>
+                  <a href="/" name="#">Terbaru</a>
                   <ul className="dropdown">
                     <li><Link to="/berita">Berita</Link></li>
                     <li><Link to="/karya_mahasiswa">Karya Mahasiswa</Link></li>
@@ -31,8 +31,6 @@ export default function Header() {
                   </ul>
                 </li>
                 <li className="nav-menu" id="nav-menu-kontak"><Link to="/contact">Kontak kami</Link></li>
-                {/*                        <li class="nav-menu" id="nav-menu-kerjasama"><a href="*/}{/*? //= base_url() 
-                                                            ?*/}
                 {/*international">Kerja Sama</a></li>*/}
                 <li className="nav-menu"><a href="http://beasiswaln.stts.edu">Beasiswa NTUST</a></li>
                 <li className="btn-cta"><a href="http://pmb.stts.edu"><span>Daftar Sekarang</span></a></li>

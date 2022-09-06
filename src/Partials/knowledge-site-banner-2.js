@@ -25,7 +25,7 @@ export default function Knowledge_site_banner_2({breadcrumb=["","",""]}) {
                     </h1>
                     <h2 className="breadcrumbs"><span>{breadcrumb[1]?breadcrumb[1]:""}
                     </span> |
-                    <span><a href="">
+                    <span><a href="/">
                         </a> {breadcrumb[2]?breadcrumb[2]:""}</span></h2>
                 </div>
                 </div>

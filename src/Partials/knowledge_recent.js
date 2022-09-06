@@ -46,7 +46,7 @@ export default function Knowledge_recent() {
                                                         className="month">{mon[temp[1]-1]}</span>
                                             </p>
                                             <p className="organizer"><span>Organized by:</span> <span>{e.event_penyelenggara}</span></p>
-                                            <h2><a name="#">{e.event_nama}</a></h2>
+                                            <h2><a href="/" name="#">{e.event_nama}</a></h2>
                                         </div>
                                         <div className="location">
                                             <span className="icon"><i className="icon-map"></i></span>
@@ -76,13 +76,13 @@ export default function Knowledge_recent() {
                                             backgroundImage:`url(${img})`
                                          }}></a>
                                         <div className="text">
-                                            <h3 className="heading"><a href="">{e.berita_judul}</a>
+                                            <h3 className="heading"><a href="/">{e.berita_judul}</a>
                                             </h3>
                                             <p>{e.berita_ringkasan.substring(0,100)}...</p>
                                             <div className="meta">
-                                                <div><a href="#"><span className="icon-calendar"></span>{e.berita_datetime}</a>
+                                                <div><a href="/"><span className="icon-calendar"></span>{e.berita_datetime}</a>
                                                 </div>
-                                                <div><a href="#"><span className="icon-user2"></span>{e.berita_pembuat}</a></div>
+                                                <div><a href="/"><span className="icon-user2"></span>{e.berita_pembuat}</a></div>
                                             </div>
                                         </div>
                                     </div>
