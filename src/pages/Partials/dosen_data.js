@@ -6,7 +6,6 @@ export default function Dosen_data() {
     const [dosen,setDosen]=React.useState([])
     
     React.useEffect(()=>{
-       
         Axios.get("https://ujicobata.com/BESTTS/api/basicController/get_dosen_recent")
         .then(result => {
           console.log(result.data.data)
@@ -15,12 +14,9 @@ export default function Dosen_data() {
         .catch(err => {
           
         })
-      
     },[])
 
-
     return(
-            
         <div class="colorlib-trainers">
             <div class="container">
                 <div class="row">

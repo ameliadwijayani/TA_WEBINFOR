@@ -7,8 +7,8 @@ export default function Dosen() {
 
   return (
     <Layout>
-    <Knowledge_site_banner_2 breadcrumb={[  "Dosen","Academic","Lecturers"]}/>
-    <Dosen_data />
-  </Layout>
+      <Knowledge_site_banner_2 breadcrumb={[  "Dosen","Academic","Lecturers"]}/>
+      <Dosen_data />
+    </Layout>
   )
 }

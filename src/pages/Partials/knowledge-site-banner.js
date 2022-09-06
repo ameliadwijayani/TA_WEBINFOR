@@ -7,7 +7,7 @@ export default function Knowledge_site_banner() {
         <aside id="colorlib-hero" style={{ minHeight:"700px" }}>
           <div className="flexslider">
             <ul className="slides">
-              <li style={{ backgroundImage: `url("/img/beranda/cover/1.jpg")`,minHeight:"700px" }} >
+              <li style={{ backgroundImage: `url("https://ta-webinfor.netlify.app/img/beranda/cover/1.jpg")`,minHeight:"700px" }} >
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -23,7 +23,7 @@ export default function Knowledge_site_banner() {
                 </div>
               </li>
               
-              <li style={{ backgroundImage: `url("/img/beranda/cover/2.jpg")`,minHeight:"700px" }} >
+              <li style={{ backgroundImage: `url("https://ta-webinfor.netlify.app/img/beranda/cover/2.jpg")`,minHeight:"700px" }} >
                   <div class="overlay"></div>
                   <div class="container-fluid">
                       <div class="row">
@@ -38,7 +38,7 @@ export default function Knowledge_site_banner() {
                       </div>
                   </div>
               </li>
-              <li style={{ backgroundImage: `url("/img/beranda/cover/3.jpg")`,minHeight:"700px" }} >
+              <li style={{ backgroundImage: `url("https://ta-webinfor.netlify.app/img/beranda/cover/3.jpg")`,minHeight:"700px" }} >
                   <div class="overlay"></div>
                   <div class="container-fluid">
                       <div class="row">
