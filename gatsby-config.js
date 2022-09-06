@@ -22,6 +22,14 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'hhttps://ta-webinfor.netlify.app/',
+        sitemap: 'hhttps://ta-webinfor.netlify.app/sitemap/sitemap-0.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
