@@ -47,7 +47,7 @@ export default function Knowledge_owl_carousel({title1,title2}) {
                                                 {e.karya_pembuat}
                                             </span>
                                             <h3 >
-                                                <a>
+                                                <a href="/">
                                                     {e.karya_judul}
                                                 </a>
                                             </h3>
