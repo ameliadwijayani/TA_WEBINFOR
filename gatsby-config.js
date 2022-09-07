@@ -24,8 +24,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'hhttps://ta-webinfor.netlify.app/',
-        sitemap: 'hhttps://ta-webinfor.netlify.app/sitemap/sitemap-0.xml',
+        host: 'https://ta-webinfor.netlify.app/',
+        sitemap: 'https://ta-webinfor.netlify.app/sitemap/sitemap-0.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
     },
