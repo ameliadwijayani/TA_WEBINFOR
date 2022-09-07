@@ -14,12 +14,12 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        icon: 'src/img/favicon.png',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-manifest',
+    //   options: {
+    //     icon: 'src/img/favicon.png',
+    //   },
+    // },
     `gatsby-plugin-offline`,
     {
       resolve: 'gatsby-plugin-robots-txt',
