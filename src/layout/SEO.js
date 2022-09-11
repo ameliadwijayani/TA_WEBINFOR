@@ -58,6 +58,10 @@ function SEO({ description, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `google-site-verification`,
+          content: "Hp0t1O2HuU3-AI298ARQ_S13lbJMyUymz5RWHMtw6DE",
+        },
       ].concat(meta)}
     >
     <link rel="icon" href={favicon} />
