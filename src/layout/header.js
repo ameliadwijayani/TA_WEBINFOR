@@ -23,7 +23,7 @@ export default function Header() {
                 <li className="nav-menu" id="nav-menu-tentang"><Link to="/dosen">Pengajar</Link></li>
                 <li className="nav-menu" id="nav-menu-tentang"><Link to="/matkul">Mata Kuliah</Link></li>
                 <li className="nav-menu has-dropdown" id="nav-menu-terbaru">
-                  <a href="/" name="#">Terbaru</a>
+                  <Link to="/">Terbaru</Link>
                   <ul className="dropdown">
                     <li><Link to="/berita">Berita</Link></li>
                     <li><Link to="/karya_mahasiswa">Karya Mahasiswa</Link></li>
