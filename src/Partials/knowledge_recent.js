@@ -46,7 +46,7 @@ export default function Knowledge_recent() {
                                                         className="month">{mon[temp[1]-1]}</span>
                                             </p>
                                             <p className="organizer"><span>Organized by:</span> <span>{e.event_penyelenggara}</span></p>
-                                            <h3><a title=""href="/" name="#">{e.event_nama}</a></h3>
+                                            <h3><a title="ISTTS"href="/" name="#">{e.event_nama}</a></h3>
                                         </div>
                                         <div className="location">
                                             <span className="icon"><i className="icon-map"></i></span>
@@ -72,17 +72,17 @@ export default function Knowledge_recent() {
                                 let img=json[1].data.file.url;
                                 return(
                                     <div className="block-21 d-flex animate-box" key={index}>
-                                        <a title=""href="/" className="blog-img" style={{ 
+                                        <a title="ISTTS"href="/" className="blog-img" style={{ 
                                             backgroundImage:`url(${img})`
                                          }}></a>
                                         <div className="text">
-                                            <h3 className="heading"><a title=""href="/">{e.berita_judul}</a>
+                                            <h3 className="heading"><a title="ISTTS"href="/">{e.berita_judul}</a>
                                             </h3>
                                             <p>{e.berita_ringkasan.substring(0,100)}...</p>
                                             <div className="meta">
-                                                <div><a title=""href="/"><span className="icon-calendar"></span>{e.berita_datetime}</a>
+                                                <div><a title="ISTTS"href="/"><span className="icon-calendar"></span>{e.berita_datetime}</a>
                                                 </div>
-                                                <div><a title=""href="/"><span className="icon-user2"></span>{e.berita_pembuat}</a></div>
+                                                <div><a title="ISTTS"href="/"><span className="icon-user2"></span>{e.berita_pembuat}</a></div>
                                             </div>
                                         </div>
                                     </div>

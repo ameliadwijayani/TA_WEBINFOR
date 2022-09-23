@@ -38,7 +38,7 @@ export default function Matkul_data() {
                     <div class="panel panel-default" key={i}>
                       <div class="panel-heading" role="tab" id={`heading${idx}`}>
                         <h4 class="panel-title">
-                          <a title=""class='collapsed' data-toggle="collapse" data-parent={`#accordion${last}`} href={`#collapse${idx}`} aria-expanded="false" aria-controls={`collapse${idx}`} >
+                          <a title="ISTTS"class='collapsed' data-toggle="collapse" data-parent={`#accordion${last}`} href={`#collapse${idx}`} aria-expanded="false" aria-controls={`collapse${idx}`} >
                             {f.matkul_nama}
                           </a>
                         </h4>

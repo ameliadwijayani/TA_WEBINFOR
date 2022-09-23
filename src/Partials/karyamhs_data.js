@@ -100,12 +100,12 @@ export default function Karyamhs_data() {
                                     return(
                                         <div class="col-md-4 animate-box ajax-item" key={"karya"+index}>
                                             <div class="classes">
-                                                <a title=""href="/" class="classes-img" style={{ backgroundImage: `url("/img/${e.karya_id}/main.jpg")` }}>
+                                                <a title="ISTTS"href="/" class="classes-img" style={{ backgroundImage: `url("/img/${e.karya_id}/main.jpg")` }}>
                                                 </a>
                                                 <div class="wrap">
                                                     <div class="desc">
                                                         <span class="teacher">{e.karya_pembuat}</span>
-                                                        <h3><a title=""href="/">{e.karya_judul}</a></h3>
+                                                        <h3><a title="ISTTS"href="/">{e.karya_judul}</a></h3>
                                                     </div>
                                                     <div class="pricing">
                                                         <p>{e.karya_ringkasan.substring(0,100)+"..."}</p>

@@ -58,7 +58,7 @@ export default function Knowledge_spesialisasi() {
                                     ctr++;
                                     return(
                                         <div className="col-md-4 col-sm-4 text-center animate-box" key={index}>
-                                            <a title=""name="#" className="services">
+                                            <a title="ISTTS"name="#" className="services">
                                                 <span className="icon">
                                                     {/* <i className="flaticon-desktop"></i>  */}
                                                     <i><img alt="img" src={`../../img/beranda/spesialisasi/${a.img}.jpg`} style={{ width:"48px"}}/></i>

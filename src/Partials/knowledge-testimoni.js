@@ -24,7 +24,7 @@ export default function Knowledge_testimoni() {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-12 center-heading text-center colorlib-heading animate-box">
-                    <h1 className="heading-big">Testimoni</h1>
+                    <h2 className="heading-big">Testimoni</h2>
                     <h3>Testimoni</h3>
                 </div>
             </div>

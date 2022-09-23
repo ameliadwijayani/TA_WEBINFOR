@@ -45,7 +45,7 @@ export default function About_visimisi() {
                                     <div className="panel panel-default" key={index}>
                                     <div class="panel-heading" role="tab" id={`heading${ctr}`}>
                                         <h4 class="panel-title">
-                                            <a title=""className={ctr == 0 ? "" : `collapsed`} data-toggle="collapse"
+                                            <a title="ISTTS"className={ctr == 0 ? "" : `collapsed`} data-toggle="collapse"
                                             data-parent="#accordion1" href={`#collapse${ctr}`}
                                             aria-expanded={ctr == 0 ? "true" : "false"}
                                             aria-controls={`collapse${ctr}`}>
