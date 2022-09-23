@@ -23,7 +23,7 @@ export default function Knowledge_tentang_kami_2() {
             <div className="panel panel-default" key={index}>
                 <div class="panel-heading" role="tab" id={`heading${ctrPanel}`}>
                     <h4 class="panel-title">
-                        <a className={ctrPanel == 5 ? "" : `collapsed`} data-toggle="collapse"
+                        <a title="" className={ctrPanel == 5 ? "" : `collapsed`} data-toggle="collapse"
                         data-parent="#accordion1" href={`#collapse${ctrPanel}`}
                         aria-expanded={ctrPanel == 5 ? "true" : "false"}
                         aria-controls={`collapse${ctrPanel}`}>{a.judul}
