@@ -85,8 +85,8 @@ export default function Karyamhs_data() {
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 colorlib-heading center-heading text-center animate-box">
-                        <h1 class="heading-big">Karya Mahasiswa</h1>
-                        <h2>Karya Mahasiswa</h2>
+                        <h2 class="heading-big">Karya Mahasiswa</h2>
+                        <h3>Karya Mahasiswa</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -100,12 +100,12 @@ export default function Karyamhs_data() {
                                     return(
                                         <div class="col-md-4 animate-box ajax-item" key={"karya"+index}>
                                             <div class="classes">
-                                                <a href="/" class="classes-img" style={{ backgroundImage: `url("/img/${e.karya_id}/main.jpg")` }}>
+                                                <a title=""href="/" class="classes-img" style={{ backgroundImage: `url("/img/${e.karya_id}/main.jpg")` }}>
                                                 </a>
                                                 <div class="wrap">
                                                     <div class="desc">
                                                         <span class="teacher">{e.karya_pembuat}</span>
-                                                        <h3><a href="/">{e.karya_judul}</a></h3>
+                                                        <h3><a title=""href="/">{e.karya_judul}</a></h3>
                                                     </div>
                                                     <div class="pricing">
                                                         <p>{e.karya_ringkasan.substring(0,100)+"..."}</p>

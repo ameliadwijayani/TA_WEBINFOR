@@ -14,8 +14,8 @@ export default function Knowledge_site_banner() {
                     <div className="col-md-8 col-sm-12 col-md-offset-2 col-xs-12 col-md-pull-1 slider-text" style={{ minHeight:"700px" }}>
                       <div className="slider-text-inner" style={{ minHeight:"700px" }}>
                         <div className="desc">
-                          <h2>Institut Sains dan Teknologi Terpadu Surabaya</h2>
-                          <h1>S1 Informatika</h1>
+                          <h3>Institut Sains dan Teknologi Terpadu Surabaya</h3>
+                          <h2>S1 Informatika</h2>
                         </div>
                       </div>
                     </div>
@@ -30,8 +30,8 @@ export default function Knowledge_site_banner() {
                           <div class="col-md-8 col-sm-12 col-md-offset-2 col-xs-12 col-md-pull-1 slider-text" style={{ minHeight:"700px" }}>
                               <div class="slider-text-inner" style={{ minHeight:"700px" }}>
                                   <div class="desc">
-                                      <h2>Institut Sains dan Teknologi Terpadu Surabaya</h2>
-                                      <h1>S1 Informatika</h1>
+                                      <h3>Institut Sains dan Teknologi Terpadu Surabaya</h3>
+                                      <h2>S1 Informatika</h2>
                                   </div>
                               </div>
                           </div>
@@ -45,8 +45,8 @@ export default function Knowledge_site_banner() {
                           <div class="col-md-8 col-sm-12 col-md-offset-2 col-xs-12 col-md-pull-1 slider-text" style={{ minHeight:"700px" }}>
                               <div class="slider-text-inner" style={{ minHeight:"700px" }}>
                                   <div class="desc">
-                                      <h2>Institut Sains dan Teknologi Terpadu Surabaya</h2>
-                                      <h1>S1 Informatika</h1>
+                                      <h3>Institut Sains dan Teknologi Terpadu Surabaya</h3>
+                                      <h2>S1 Informatika</h2>
                                   </div>
                               </div>
                           </div>

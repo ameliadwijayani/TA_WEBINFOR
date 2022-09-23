@@ -22,8 +22,8 @@ export default function Knowledge_owl_carousel({title1,title2}) {
                 <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-12 colorlib-heading center-heading text-center animate-box">
-                    <h1 className="heading-big" >{title1}</h1>
-                    <h2 >{title2}</h2>
+                    <h2 className="heading-big" >{title1}</h2>
+                    <h3 >{title2}</h3>
                     </div>
                 </div>
                 <div className="row">
@@ -47,7 +47,7 @@ export default function Knowledge_owl_carousel({title1,title2}) {
                                                 {e.karya_pembuat}
                                             </span>
                                             <h3 >
-                                                <a href="/">
+                                                <a title=""href="/">
                                                     {e.karya_judul}
                                                 </a>
                                             </h3>

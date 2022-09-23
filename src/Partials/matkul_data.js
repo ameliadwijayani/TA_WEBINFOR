@@ -26,7 +26,7 @@ export default function Matkul_data() {
                   
           <div class="row">
             <div class="col-md-12 colorlib-heading animate-box">
-              <h1>Semester {last}</h1>
+              <h2>Semester {last}</h2>
             </div>
           </div>
           <div class="row">
@@ -38,7 +38,7 @@ export default function Matkul_data() {
                     <div class="panel panel-default" key={i}>
                       <div class="panel-heading" role="tab" id={`heading${idx}`}>
                         <h4 class="panel-title">
-                          <a class='collapsed' data-toggle="collapse" data-parent={`#accordion${last}`} href={`#collapse${idx}`} aria-expanded="false" aria-controls={`collapse${idx}`} >
+                          <a title=""class='collapsed' data-toggle="collapse" data-parent={`#accordion${last}`} href={`#collapse${idx}`} aria-expanded="false" aria-controls={`collapse${idx}`} >
                             {f.matkul_nama}
                           </a>
                         </h4>
@@ -80,8 +80,8 @@ export default function Matkul_data() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 colorlib-heading center-heading text-center animate-box">
-                    <h1 className="heading-big">Alur</h1>
-                    <h2>Alur Mata Kuliah</h2>
+                    <h2 className="heading-big">Alur</h2>
+                    <h3>Alur Mata Kuliah</h3>
                     </div>
                 </div>
                 <div className="row">
@@ -95,8 +95,8 @@ export default function Matkul_data() {
                 </div>
                 <div className="row">
                     <div className="col-md-12 colorlib-heading center-heading text-center animate-box">
-                    <h1 className="heading-big">Deskripsi</h1>
-                    <h2>Deskripsi Mata Kuliah</h2>
+                    <h2 className="heading-big">Deskripsi</h2>
+                    <h3>Deskripsi Mata Kuliah</h3>
                     </div>
                 </div>
                 

@@ -6,7 +6,7 @@ export default function Contact_form() {
         <div className="container">
             <div className="row">
             <div className="col-md-12">
-                <h2>Mau info lebih lanjut? Silakan mengisi form di bawah ini:</h2>
+                <h3>Mau info lebih lanjut? Silakan mengisi form di bawah ini:</h3>
             </div>
             <div className="col-md-12">
                 <form method="post" id="contact-form">

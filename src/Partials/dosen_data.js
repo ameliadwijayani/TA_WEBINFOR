@@ -21,8 +21,8 @@ export default function Dosen_data() {
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 colorlib-heading center-heading text-center animate-box">
-                        <h1 class="heading-big">Pengelola</h1>
-                        <h2>Dosen Pengelola</h2>
+                        <h2 class="heading-big">Pengelola</h2>
+                        <h3>Dosen Pengelola</h3>
                     </div>
                 </div>
                 <div class="row row-pb-md">

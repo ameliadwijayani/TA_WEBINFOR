@@ -30,7 +30,7 @@ export default function Knowledge_tentang_kami() {
             <div className="panel panel-default" key={index}>
                 <div className="panel-heading" role="tab" id={`heading${ctrPanel}`}>
                     <h4 className="panel-title">
-                        <a className={ctrPanel == 0 ? "" : `collapsed`} data-toggle="collapse"
+                        <a title=""className={ctrPanel == 0 ? "" : `collapsed`} data-toggle="collapse"
                         data-parent="#accordion0" href={`#collapse${ctrPanel}`}
                         aria-expanded={ctrPanel == 0 ? "true" : "false"}
                         aria-controls={`collapse${ctrPanel}`}>
@@ -63,8 +63,8 @@ export default function Knowledge_tentang_kami() {
                 <div className="col-md-5">
                     <div className="row">
                         <div className="col-md-12 colorlib-heading animate-box">
-                            <h1 className="heading-big">ISTTS</h1>
-                            <h2>Mengapa memilih ISTTS?</h2>
+                            <h2 className="heading-big">ISTTS</h2>
+                            <h3>Mengapa memilih ISTTS?</h3>
                         </div>
                     </div>
                     <div className="row">

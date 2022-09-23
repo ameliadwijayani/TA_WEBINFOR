@@ -396,28 +396,28 @@ h1, h2, h3, h4, h5, h6, figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner span i {
           font-size: 24px;
           color: #F7AF1D; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner h2, #colorlib-hero .flexslider .slider-text > .slider-text-inner h3 {
           margin: 0;
           padding: 0;
           color: #fff; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin-bottom: 30px;
           font-size: 44px;
           font-weight: 500;
           opacity: 1; }
           @media screen and (max-width: 768px) {
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
               font-size: 28px; } }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner h3 {
           font-size: 20px;
           line-height: 1.5;
           margin-bottom: 0px;
           font-weight: 300;
           color: rgba(255, 255, 255, 0.7); }
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
+          #colorlib-hero .flexslider .slider-text > .slider-text-inner h3 a {
             color: rgba(255, 255, 255, 0.8); }
           @media screen and (max-width: 768px) {
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h3 {
               font-size: 20px; } }
         @media screen and (max-width: 480px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
@@ -931,7 +931,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative; }
   #colorlib-testimony .colorlib-heading {
     margin-bottom: 3em; }
-    #colorlib-testimony .colorlib-heading h2 {
+    #colorlib-testimony .colorlib-heading h3 {
       color: white; }
   #colorlib-testimony .testimony-flex {
     position: relative;
@@ -1050,10 +1050,10 @@ h1, h2, h3, h4, h5, h6, figure {
       left: 0; }
       .event-entry .location .icon i {
         color: #999999; }
-  .event-entry h2 {
+  .event-entry h3 {
     font-size: 24px;
     line-height: 1.4; }
-    .event-entry h2 a {
+    .event-entry h3 a {
       color: #000; }
 
 .block-21 {
@@ -1150,10 +1150,10 @@ h1, h2, h3, h4, h5, h6, figure {
       float: left; }
     .sidebar .f-blog .desc {
       padding: 0; }
-      .sidebar .f-blog .desc h2 {
+      .sidebar .f-blog .desc h3 {
         font-size: 20px;
         margin-bottom: 15px; }
-        .sidebar .f-blog .desc h2 a {
+        .sidebar .f-blog .desc h3 a {
           color: black; }
       .sidebar .f-blog .desc .admin {
         font-size: 13px;
@@ -1253,7 +1253,7 @@ input[type="text"] {
 .colorlib-heading {
   margin-bottom: 2em;
   position: relative; }
-  .colorlib-heading h1.heading-big {
+  .colorlib-heading h2.heading-big {
     position: absolute;
     bottom: 0px;
     left: 10px;
@@ -1262,15 +1262,15 @@ input[type="text"] {
     font-weight: 700;
     font-size: 60px; }
     @media screen and (max-width: 768px) {
-      .colorlib-heading h1.heading-big {
+      .colorlib-heading h2.heading-big {
         font-size: 40px; } }
-  .colorlib-heading h2 {
+  .colorlib-heading h3 {
     font-size: 28px;
     font-weight: 400; }
     @media screen and (max-width: 768px) {
-      .colorlib-heading h2 {
+      .colorlib-heading h3 {
         font-size: 30px; } }
-  .colorlib-heading.center-heading h1.heading-big {
+  .colorlib-heading.center-heading h2.heading-big {
     left: 0;
     right: 0; }
 
@@ -1294,7 +1294,7 @@ input[type="text"] {
     z-index: -1; }
   #colorlib-subscribe .colorlib-heading {
     margin-bottom: 20px; }
-    #colorlib-subscribe .colorlib-heading h2 {
+    #colorlib-subscribe .colorlib-heading h3 {
       color: #fff; }
     #colorlib-subscribe .colorlib-heading p {
       font-size: 18px;
@@ -1383,10 +1383,10 @@ input[type="text"] {
       float: left; }
     #colorlib-footer .f-blog .desc {
       padding: 0; }
-      #colorlib-footer .f-blog .desc h2 {
+      #colorlib-footer .f-blog .desc h3 {
         font-size: 16px;
         margin-bottom: 5px; }
-        #colorlib-footer .f-blog .desc h2 a {
+        #colorlib-footer .f-blog .desc h3 a {
           color: #cccccc; }
       #colorlib-footer .f-blog .desc .admin {
         font-size: 13px; }

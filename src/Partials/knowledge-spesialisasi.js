@@ -46,8 +46,8 @@ export default function Knowledge_spesialisasi() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 colorlib-heading center-heading text-center animate-box">
-                        <h1 className="heading-big">Spesialisasi</h1>
-                        <h2>Spesialisasi</h2>
+                        <h2 className="heading-big">Spesialisasi</h2>
+                        <h3>Spesialisasi</h3>
                     </div>
                 </div>
                 <div className="row">
@@ -58,7 +58,7 @@ export default function Knowledge_spesialisasi() {
                                     ctr++;
                                     return(
                                         <div className="col-md-4 col-sm-4 text-center animate-box" key={index}>
-                                            <a name="#" className="services">
+                                            <a title=""name="#" className="services">
                                                 <span className="icon">
                                                     {/* <i className="flaticon-desktop"></i>  */}
                                                     <i><img alt="img" src={`../../img/beranda/spesialisasi/${a.img}.jpg`} style={{ width:"48px"}}/></i>

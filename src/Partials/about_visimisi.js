@@ -30,8 +30,8 @@ export default function About_visimisi() {
                 <div class="col-md-5">
                     <div class="row">
                         <div class="col-md-12 colorlib-heading animate-box">
-                            <h1 class="heading-big">Tentang Kami</h1>
-                            <h2>Tentang Kami</h2>
+                            <h2 class="heading-big">Tentang Kami</h2>
+                            <h3>Tentang Kami</h3>
                         </div>
                     </div>
                     <div class="row">
@@ -45,7 +45,7 @@ export default function About_visimisi() {
                                     <div className="panel panel-default" key={index}>
                                     <div class="panel-heading" role="tab" id={`heading${ctr}`}>
                                         <h4 class="panel-title">
-                                            <a className={ctr == 0 ? "" : `collapsed`} data-toggle="collapse"
+                                            <a title=""className={ctr == 0 ? "" : `collapsed`} data-toggle="collapse"
                                             data-parent="#accordion1" href={`#collapse${ctr}`}
                                             aria-expanded={ctr == 0 ? "true" : "false"}
                                             aria-controls={`collapse${ctr}`}>

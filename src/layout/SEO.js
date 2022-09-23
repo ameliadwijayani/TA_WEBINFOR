@@ -8,7 +8,7 @@ function SEO({ description, meta, title }) {
  
   const metaDescription = description || "Halaman web tentang jurusan S1 teknik informatika iSTTS"
   const defaultTitle = `Institut Sains dan Teknologi Terpadu Surabaya`
-  const keywords=`Informatika STTS ISTTS Institut Sains Teknologi Terpadu Surabaya Terbaik S1-Informatika Teknik Informatika`
+  const keywords=`Informatika STTS ISTTS Institut Sains Teknologi Terpadu Surabaya Terbaik S1-Informatika Teknik Informatika institut sains terpadu surabaya `
 
   return (
     <Helmet
