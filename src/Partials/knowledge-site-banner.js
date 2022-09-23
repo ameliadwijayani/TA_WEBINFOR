@@ -31,7 +31,7 @@ export default function Knowledge_site_banner() {
                               <div class="slider-text-inner" style={{ minHeight:"700px" }}>
                                   <div class="desc">
                                       <h3>Institut Sains dan Teknologi Terpadu Surabaya</h3>
-                                      <h2>S1 Informatika</h2>
+                                      <h2>S1 Informatika ISTTS</h2>
                                   </div>
                               </div>
                           </div>
